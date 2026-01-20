@@ -9,12 +9,12 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #FAFAF9;
+  margin: 0 6rem;
   margin-top: 10.125rem;
 }
 
 img.icon {
   padding: 0;
-  margin-bottom: 1rem;
 }
 
 main > h1 {
@@ -24,7 +24,9 @@ main > h1 {
 
 main > p {
   font-size: 1.25rem;
+  line-height: 2rem;
   margin-bottom: 2rem;
+  color: #52525A;
 }
 
 ul.checkmarks {
@@ -127,7 +129,7 @@ p.testimonial-text {
   body {
     display: flex;
     flex-direction: row;
-    gap: 1.25rem;
+    gap: 2rem;
   }
 
   main, aside {
