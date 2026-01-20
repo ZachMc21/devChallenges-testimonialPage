@@ -9,6 +9,7 @@ body {
   flex-direction: column;
   background-color: #FAFAF9;
   margin: 0 2rem;
+  margin-top: 2.25rem;
 }
 
 img.icon {
@@ -50,10 +51,6 @@ ul.checkmarks li {
   box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
   background-color: #FFFFFF;
   margin-bottom: 2rem;
-}
-
-.testimonial > p {
-  font-size: 1.15rem;
 }
 
 .testimonial-header {
@@ -99,6 +96,10 @@ p.testimonial-text {
 
   .testimonial {
     margin-bottom: 0;
+  }
+  
+  .testimonial > p {
+    font-size: 1.15rem;
   }
   
   aside {
